@@ -27,7 +27,6 @@
 		68CCDB5D1EB0DB18004C66FA /* UCDAIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDB4F1EB0DB18004C66FA /* UCDAIViewController.swift */; };
 		68CCDB5E1EB0DB18004C66FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDB501EB0DB18004C66FA /* AppDelegate.swift */; };
 		68CCDB5F1EB0DB18004C66FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CCDB511EB0DB18004C66FA /* Assets.xcassets */; };
-		68CCDB681EB0DCE3004C66FA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68CCDB671EB0DCE3004C66FA /* Info.plist */; };
 		68CCDB6A1EB0DFEC004C66FA /* RachmilewitzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CCDB691EB0DFEC004C66FA /* RachmilewitzViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -146,6 +145,7 @@
 					681943341EA500EB00CD0E3D = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 7GW64MW9FF;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -175,7 +175,6 @@
 			files = (
 				68CCDB531EB0DB18004C66FA /* Main.storyboard in Resources */,
 				682521AA1EB37182002BBE42 /* StoryboardiPad.storyboard in Resources */,
-				68CCDB681EB0DCE3004C66FA /* Info.plist in Resources */,
 				686B52431EBCB72C00A846C8 /* LaunchScreen.storyboard in Resources */,
 				68CCDB5F1EB0DB18004C66FA /* Assets.xcassets in Resources */,
 				68C237CA1EF81C4600A39C8B /* Default-568h@2x.png in Resources */,
@@ -328,14 +327,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7GW64MW9FF;
-				INFOPLIST_FILE = "$(SRCROOT)/../../.Trash/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CDAI6/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = 4KDLBUGK9J.CDAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "22a76efc-5c78-4310-8619-6c46796e96a9";
 				PROVISIONING_PROFILE_SPECIFIER = PP170507CDAI;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -346,14 +346,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 7GW64MW9FF;
-				INFOPLIST_FILE = "$(SRCROOT)/../../.Trash/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CDAI6/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = 4KDLBUGK9J.CDAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f1ebe0df-9268-4b76-82f1-1814182cd617";
 				PROVISIONING_PROFILE_SPECIFIER = DP170512CDAI;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
